@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Workspace\WEB C++\Drogontest\webBackend\CMakeFiles\9b3e34e2f0be4adf7ae0c281db85e7d7\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\Workspace\WEB C++\Drogontest\webBackend\test\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\test</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E7B5976A-2515-349B-9E49-B117A7AAD089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\test">
+      <UniqueIdentifier>{F1C1B525-12A3-330B-A652-00561321DB28}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
