@@ -1,5 +1,7 @@
 
 #include <drogon/drogon.h>
+#include "./controllers/CatiaToWebController.h"
+
 using namespace drogon;
 
 int main()

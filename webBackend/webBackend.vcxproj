@@ -85,8 +85,8 @@
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>E:\Workspace\Dependent Lib\CGAL-5.5.2\CGAL\include;E:\OCCT_7.7.0\OCCT_7.7.0\include;C:\Program Files\MySQL\MySQL Connector C++ 1.1.13\include;E:\Workspace\Dependent Lib\xlnt-1.5.0\XINT\include;$(IncludePath)</IncludePath>
-    <LibraryPath>E:\OCCT_7.7.0\OCCT_7.7.0\lib;C:\Program Files\MySQL\MySQL Connector C++ 1.1.13\lib;E:\Workspace\Dependent Lib\xlnt-1.5.0\XINT\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>E:\Workspace\Dependent Lib\CGAL-5.5.2\CGAL\include;E:\OCCT_7.7.0\OCCT_7.7.0\include;C:\Program Files\MySQL\MySQL Connector C++ 1.1.13\include;E:\Workspace\Dependent Lib\xlnt-1.5.0\XINT\include;E:\Workspace\Dependent Lib\assimp\ASSIMP\include;E:\Workspace\Dependent Lib\assimp\ASSIMP\include\assimp;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\Workspace\Dependent Lib\xlnt-1.5.0\XINT\lib;E:\Workspace\Dependent Lib\assimp\ASSIMP\lib;E:\OCCT_7.7.0\OCCT_7.7.0\lib;C:\Program Files\MySQL\MySQL Connector C++ 1.1.13\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -169,7 +169,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>E:\Workspace\Dependent Lib\vcpkg\packages\drogon_x64-windows\lib\drogon.lib;Rpcrt4.lib;ws2_32.lib;crypt32.lib;Advapi32.lib;E:\Workspace\Dependent Lib\vcpkg\packages\trantor_x64-windows\lib\trantor.lib;E:\Workspace\Dependent Lib\vcpkg\packages\jsoncpp_x64-windows\lib\jsoncpp.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;DRAWEXE.lib;ExpToCasExe.lib;TKBin.lib;TKBinL.lib;TKBinTObj.lib;TKBinXCAF.lib;TKBO.lib;TKBool.lib;TKBRep.lib;TKCAF.lib;TKCDF.lib;TKDCAF.lib;TKDraw.lib;TKernel.lib;TKExpress.lib;TKFeat.lib;TKFillet.lib;TKG2d.lib;TKG3d.lib;TKGeomAlgo.lib;TKGeomBase.lib;TKHLR.lib;TKIGES.lib;TKIVtk.lib;TKIVtkDraw.lib;TKLCAF.lib;TKMath.lib;TKMesh.lib;TKMeshVS.lib;TKOffset.lib;TKOpenGl.lib;TKOpenGlTest.lib;TKPrim.lib;TKQADraw.lib;TKRWMesh.lib;TKService.lib;TKShHealing.lib;TKStd.lib;TKStdL.lib;TKSTEP.lib;TKSTEP209.lib;TKSTEPAttr.lib;TKSTEPBase.lib;TKSTL.lib;TKTObj.lib;TKTObjDRAW.lib;TKTopAlgo.lib;TKTopTest.lib;TKV3d.lib;TKVCAF.lib;TKViewerTest.lib;TKVRML.lib;TKXCAF.lib;TKXDE.lib;TKXDECascade.lib;TKXDEDRAW.lib;TKXDEIGES.lib;TKXDESTEP.lib;TKXMesh.lib;TKXml.lib;TKXmlL.lib;TKXmlTObj.lib;TKXmlXCAF.lib;TKXSBase.lib;TKXSDRAW.lib</AdditionalDependencies>
+      <AdditionalDependencies>E:\Workspace\Dependent Lib\vcpkg\packages\drogon_x64-windows\lib\drogon.lib;Rpcrt4.lib;ws2_32.lib;crypt32.lib;Advapi32.lib;E:\Workspace\Dependent Lib\vcpkg\packages\trantor_x64-windows\lib\trantor.lib;E:\Workspace\Dependent Lib\vcpkg\packages\jsoncpp_x64-windows\lib\jsoncpp.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;DRAWEXE.lib;ExpToCasExe.lib;TKBin.lib;TKBinL.lib;TKBinTObj.lib;TKBinXCAF.lib;TKBO.lib;TKBool.lib;TKBRep.lib;TKCAF.lib;TKCDF.lib;TKDCAF.lib;TKDraw.lib;TKernel.lib;TKExpress.lib;TKFeat.lib;TKFillet.lib;TKG2d.lib;TKG3d.lib;TKGeomAlgo.lib;TKGeomBase.lib;TKHLR.lib;TKIGES.lib;TKIVtk.lib;TKIVtkDraw.lib;TKLCAF.lib;TKMath.lib;TKMesh.lib;TKMeshVS.lib;TKOffset.lib;TKOpenGl.lib;TKOpenGlTest.lib;TKPrim.lib;TKQADraw.lib;TKRWMesh.lib;TKService.lib;TKShHealing.lib;TKStd.lib;TKStdL.lib;TKSTEP.lib;TKSTEP209.lib;TKSTEPAttr.lib;TKSTEPBase.lib;TKSTL.lib;TKTObj.lib;TKTObjDRAW.lib;TKTopAlgo.lib;TKTopTest.lib;TKV3d.lib;TKVCAF.lib;TKViewerTest.lib;TKVRML.lib;TKXCAF.lib;TKXDE.lib;TKXDECascade.lib;TKXDEDRAW.lib;TKXDEIGES.lib;TKXDESTEP.lib;TKXMesh.lib;TKXml.lib;TKXmlL.lib;TKXmlTObj.lib;TKXmlXCAF.lib;TKXSBase.lib;TKXSDRAW.lib;zlibstatic.lib;assimp-vc143-mt.lib;xlnt.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -333,6 +333,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="controllers\CatiaToWebController.cpp" />
     <ClCompile Include="E:\Workspace\WEB C++\Drogontest\webBackend\main.cc" />
   </ItemGroup>
   <ItemGroup>
@@ -342,6 +343,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="controllers\CatiaToWebController.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

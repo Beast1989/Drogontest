@@ -4,6 +4,7 @@
     <ClCompile Include="E:\Workspace\WEB C++\Drogontest\webBackend\main.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="controllers\CatiaToWebController.cpp" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="E:\Workspace\WEB C++\Drogontest\webBackend\CMakeLists.txt" />
@@ -12,5 +13,8 @@
     <Filter Include="Source Files">
       <UniqueIdentifier>{E1F9F546-1591-3AA5-9B25-2F091EA7F743}</UniqueIdentifier>
     </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="controllers\CatiaToWebController.h" />
   </ItemGroup>
 </Project>

@@ -1,12 +1,10 @@
-import "./App.css";
 import TopToolbar from "./Components/top-toolbar/TopToolbar";
+import DisplayArea from "./Components/display-area/DisplayArea";
 
 function App() {
   return (
-    <div className="App">
-      <div className="top-toolbar">
-        <TopToolbar />
-      </div>
+    <div>
+      <DisplayArea />
     </div>
   );
 }
